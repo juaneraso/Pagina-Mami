@@ -1,25 +1,27 @@
 .container {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-    background-color: #075120;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    color: #cb9319; /* Rojo navideño */
-    font-size: 60px;
-  }
-  
-  img {
-    max-width: 70%;
-    height: auto;
-    border-radius: 30px;
-    margin: 10px 0;
-  }
-  
-  p {
-    font-size: 60px;
-    color: #c9df21; /* Verde navideño */
-  }
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #075120;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #cb9319; /* Rojo navideño */
+  font-size: 3.5vw; /* Utilizando unidades de vista (vw) para el tamaño del texto */
+  margin: 10px 0; /* Añadiendo espacio entre el título y las imágenes */
+}
+
+img {
+  max-width: 100%; /* Ajustando el tamaño máximo de las imágenes */
+  height: auto;
+  border-radius: 30px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 3.5vw; /* Utilizando unidades de vista (vw) para el tamaño del texto */
+  color: #c9df21; /* Verde navideño */
+  margin: 10px 0; /* Añadiendo espacio entre el texto y las imágenes */
+}

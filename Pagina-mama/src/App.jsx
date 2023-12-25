@@ -1,4 +1,4 @@
-import FelizNavidad from "./components/Feliznavidad/FelizNavidad"
+import FelizNavidad from "./components/FelizNavidad/FelizNavidad"
 
 function App() {
   const imagen1URL = 'https://firebasestorage.googleapis.com/v0/b/fir-autenticacion-95e3f.appspot.com/o/FotoconMami.jpeg?alt=media&token=e9155552-3076-433c-b977-9158382c258c';
